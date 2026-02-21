@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/ff-release-repo">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/om" element={<Om />} />
